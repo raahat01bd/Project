@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body
+{
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #000;
+    /* background-color: whitesmoke; */
+   height: 100%;
+   width: 100%;
+}
+.body2
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: 700;
+    color: #092032;
+}
+a
+{
+    color: #092032;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+img 
+{
+    width: 100%;
+}
+
+/* Navbar */
+.top-nav
+{
+    height: 30px;
+    background-color: #ed161f;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.top-nav p
+{
+    margin-bottom: 0px;
+    display: inline-block;
+    margin-left: 15px;
+
+    font-size: 13px;
+    color: whitesmoke;
+} 
+.social-links a
+{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    background-color: #ed161f;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 100%;
+}
+.social-links a:hover
+{
+    background-color: #df777c;
+}
+.navbar
+{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08) ;
+}
+.middle
+{
+    height: 90%;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.wpb-js-composer .title-wrapper .linear-container
+{
+    min-width: inherit;
+    max-height: inherit;
+}
+
+.linear-container{
+    border-bottom: 2px solid rgba(119, 119, 119, 0.17);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+}
+.item{
+    position: relative;
+    overflow: hidden;
+}
+.item img{
+   
+    display: block;
+    transition: transform 2s;
+    cursor: zoom-in;
+}
+.item:hover img{
+    transform: scale(2);
+}
+.footer
+   {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    
+   }
+/* nav logo style part  */
+.nav2-image{
+    width: 100px;
+    height: 60px;
+}
+.my-nav-container{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-bottom: 10px;
+}
+.my-nav-class{
+    border: 0.5px solid rgb(226, 226, 226);
+}
+.ftimg{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+}
+.my-nav-container{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 555;
+    background-color: white;
+}
+.discount{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background: #ed161f;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    z-index: 22;
+}
+
+del
+{
+    color: rgb(207, 197, 197);
+}
+ins
+{
+    color: #ed161f;
+    text-decoration: none;
+}
+.demand
+{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border: none;
+    z-index: 22;
+    background: rgb(245, 127, 127);
+    color: rgb(255, 250, 250);
+    opacity: 20px;
+
+}
+
